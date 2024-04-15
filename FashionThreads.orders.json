@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "65d2008e59e9eeceface0f16"
+  },
+  "user": {
+    "$oid": "65d060e7a4906719e023c955"
+  },
+  "products": [
+    {
+      "$oid": "65cb88f66974ad75ba988e90"
+    }
+  ],
+  "totalAmount": 1500,
+  "status": "confirmed",
+  "address": "Shiv kripa chawl, Dahisar(E) ",
+  "state": "Maharashtra",
+  "city": "Mumbai",
+  "pincode": "400068",
+  "createdAt": {
+    "$date": "2024-02-18T13:05:18.280Z"
+  },
+  "deliveryDate": {
+    "$date": "2024-02-25T13:05:18.280Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65d202a859e9eeceface0f18"
+  },
+  "user": {
+    "$oid": "65d060e7a4906719e023c955"
+  },
+  "products": [
+    {
+      "$oid": "65cb88f66974ad75ba988e90"
+    }
+  ],
+  "totalAmount": 1500,
+  "status": "confirmed",
+  "address": "Shiv kripa chawl, Dahisar(E) ",
+  "state": "Maharashtra",
+  "city": "Mumbai",
+  "pincode": "400068",
+  "createdAt": {
+    "$date": "2024-02-18T13:14:16.040Z"
+  },
+  "deliveryDate": {
+    "$date": "2024-02-25T13:14:16.040Z"
+  },
+  "__v": 0
+}]

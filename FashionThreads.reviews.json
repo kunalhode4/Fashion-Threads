@@ -1,0 +1,135 @@
+[{
+  "_id": {
+    "$oid": "65d236198aa62c9a627ee7a9"
+  },
+  "user": "Rohit",
+  "product": {
+    "$oid": "65d21a4d69442656221ae8aa"
+  },
+  "rating": 5,
+  "comment": "Hi",
+  "createdAt": {
+    "$date": "2024-02-18T16:53:45.201Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65d238f78aa62c9a627ee7d6"
+  },
+  "user": "Rohit",
+  "product": {
+    "$oid": "65d21a4d69442656221ae8aa"
+  },
+  "rating": 4,
+  "comment": "Four starts",
+  "createdAt": {
+    "$date": "2024-02-18T17:05:59.164Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65d2390d8aa62c9a627ee7dc"
+  },
+  "user": "Rohit",
+  "product": {
+    "$oid": "65d21a4d69442656221ae8aa"
+  },
+  "rating": 3,
+  "comment": "3 stars",
+  "createdAt": {
+    "$date": "2024-02-18T17:06:21.439Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65d239178aa62c9a627ee7df"
+  },
+  "user": "Rohit",
+  "product": {
+    "$oid": "65d21a4d69442656221ae8aa"
+  },
+  "rating": 2,
+  "comment": "2 stars",
+  "createdAt": {
+    "$date": "2024-02-18T17:06:31.152Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65d239258aa62c9a627ee7e2"
+  },
+  "user": "Rohit",
+  "product": {
+    "$oid": "65d21a4d69442656221ae8aa"
+  },
+  "rating": 1,
+  "comment": "1 star",
+  "createdAt": {
+    "$date": "2024-02-18T17:06:45.878Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65d23cea8aa62c9a627ee822"
+  },
+  "user": "Rohit",
+  "product": {
+    "$oid": "65d21a4d69442656221ae8aa"
+  },
+  "rating": 2,
+  "comment": "Elvishhh Bhaiiiii",
+  "createdAt": {
+    "$date": "2024-02-18T17:22:50.122Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65d23cf98aa62c9a627ee828"
+  },
+  "user": "Rohit",
+  "product": {
+    "$oid": "65d21a4d69442656221ae8aa"
+  },
+  "rating": 1,
+  "comment": "rgkeyjey",
+  "createdAt": {
+    "$date": "2024-02-18T17:23:05.667Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65d23fd28aa62c9a627ee850"
+  },
+  "user": "Rohit",
+  "product": {
+    "$oid": "65cb88f66974ad75ba988e90"
+  },
+  "rating": 5,
+  "comment": "5 starrrr",
+  "createdAt": {
+    "$date": "2024-02-18T17:35:14.357Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65d240038aa62c9a627ee858"
+  },
+  "user": "Rohit",
+  "product": {
+    "$oid": "65d2144619ab3cfe1a0be72d"
+  },
+  "rating": 5,
+  "comment": "5 starrrrrr",
+  "createdAt": {
+    "$date": "2024-02-18T17:36:03.908Z"
+  },
+  "__v": 0
+}]

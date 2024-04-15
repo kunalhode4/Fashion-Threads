@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <style>
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product-card {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 200px;
+        }
+        .product-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h2>Products</h2>
+    <div class="product-container" id="product-container">
+        <!-- Product details will be displayed here -->
+    </div>
+
+    <script>
+        // Function to fetch product details from the API and display them on the page
+        async function fetchAndDisplayProducts(category) {
+            try {
+                const response = await fetch(`http://192.168.147.80:5000/api/get-products/${category}`);
+                const products = await response.json();
+
+                const productContainer = document.getElementById('product-container');
+                productContainer.innerHTML = ''; 
+
+                products.forEach(product => {
+                    const productCard = document.createElement('div');
+                    productCard.classList.add('product-card');
+
+                    const productName = document.createElement('h3');
+                    productName.textContent = product.productName;
+                    productCard.appendChild(productName);
+
+                    const productImage = document.createElement('img');
+                    productImage.classList.add('product-image');
+                    productImage.src = `http://192.168.147.80:5000/images/${product.image}`; 
+                    productImage.alt = product.productName;
+                    productCard.appendChild(productImage);
+
+                    const productDescription = document.createElement('p');
+                    productDescription.textContent = `Description: ${product.description}`;
+                    productCard.appendChild(productDescription);
+
+                    const productSize = document.createElement('p');
+                    productSize.textContent = `Size: ${product.size}`;
+                    productCard.appendChild(productSize);
+
+                    const productPrice = document.createElement('p');
+                    productPrice.textContent = `Price: ${product.price}`;
+                    productCard.appendChild(productPrice);
+
+                    productContainer.appendChild(productCard);
+                });
+            } catch (error) {
+                console.error(error);
+            }
+        }
+
+        // Call the function to fetch and display products when the page loads
+        window.onload = function() {
+            fetchAndDisplayProducts('male'); // You can change the category here
+        };
+    </script>
+</body>
+</html>

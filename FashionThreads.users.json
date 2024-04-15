@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "65d060e7a4906719e023c955"
+  },
+  "name": "Rohit",
+  "email": "kumbharrohit2803@gmail.com",
+  "password": "$2a$10$2gVDzJia1.36j5e/UYpmBumSyILF3eF8mTwvyfga42AaDRQBAvdxG",
+  "date": {
+    "$date": "2024-02-17T07:31:51.435Z"
+  },
+  "__v": 0
+}]
